@@ -1,0 +1,3 @@
+SET(LIB_PREPROCESSING preprocessing.cpp)
+ADD_LIBRARY(libpreProcessing ${LIB_PREPROCESSING})
+SET_TARGET_PROPERTIES(libpreProcessing PROPERTIES OUTPUTNAME "preProcessing")

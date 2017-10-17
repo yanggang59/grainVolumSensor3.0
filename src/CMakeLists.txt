@@ -1,0 +1,12 @@
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/libpreProcessing)
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/libcalArea)
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/libcal3dCoor)
+SET(APP_SRC main.cpp)
+SET(OpenCV_DIR "/home/thomas/opencv-2.4.11/release")
+FIND_PACKAGE(OpenCV REQUIRED)
+INCLUDE_DIRECTORIES(${OpenCv_INCLUDE_DIRS})
+ADD_EXECUTABLE(grainVolumeSensor ${APP_SRC})
+TARGET_LINK_LIBRARIES(grainVolumeSensor ${OpenCV_LIBS} libpreProcessing libcalArea libcal3dCoor)
+
+
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thomas/opencv_workspace/test4/libpreProcessing/preprocessing.cpp
+preprocessing.h
+/home/thomas/opencv_workspace/test4/libpreProcessing/preprocessing.h
+
+/home/thomas/opencv_workspace/test4/libpreProcessing/preprocessing.h
+opencv2/opencv.hpp
+-
+
