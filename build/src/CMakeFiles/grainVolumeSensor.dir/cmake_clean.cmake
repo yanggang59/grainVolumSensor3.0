@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/grainVolumeSensor.dir/main.cpp.o"
-  "grainVolumeSensor.pdb"
-  "grainVolumeSensor"
+  "../bin/grainVolumeSensor.pdb"
+  "../bin/grainVolumeSensor"
 )
 
 # Per-language clean rules from dependency scanning.

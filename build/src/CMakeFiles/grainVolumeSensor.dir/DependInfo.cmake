@@ -10,9 +10,9 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../libpreProcessing"
-  "../libcalArea"
-  "../libcal3dCoor"
+  "../preProcessing"
+  "../calArea"
+  "../cal3dCoor"
   "/home/thomas/opencv-2.4.11/release"
   "/home/thomas/opencv-2.4.11/include"
   "/home/thomas/opencv-2.4.11/include/opencv"
@@ -39,9 +39,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/thomas/opencv_workspace/test4/build/libpreProcessing/CMakeFiles/libpreProcessing.dir/DependInfo.cmake"
-  "/home/thomas/opencv_workspace/test4/build/libcalArea/CMakeFiles/libcalArea.dir/DependInfo.cmake"
-  "/home/thomas/opencv_workspace/test4/build/libcal3dCoor/CMakeFiles/libcal3dCoor.dir/DependInfo.cmake"
+  "/home/thomas/opencv_workspace/test4/build/preProcessing/CMakeFiles/libpreProcessing.dir/DependInfo.cmake"
+  "/home/thomas/opencv_workspace/test4/build/calArea/CMakeFiles/libcalArea.dir/DependInfo.cmake"
+  "/home/thomas/opencv_workspace/test4/build/cal3dCoor/CMakeFiles/libcal3dCoor.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

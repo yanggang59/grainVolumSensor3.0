@@ -81,9 +81,9 @@ src/preinstall:
 # Target rules for target src/CMakeFiles/grainVolumeSensor.dir
 
 # All Build rule for target.
-src/CMakeFiles/grainVolumeSensor.dir/all: libpreProcessing/CMakeFiles/libpreProcessing.dir/all
-src/CMakeFiles/grainVolumeSensor.dir/all: libcalArea/CMakeFiles/libcalArea.dir/all
-src/CMakeFiles/grainVolumeSensor.dir/all: libcal3dCoor/CMakeFiles/libcal3dCoor.dir/all
+src/CMakeFiles/grainVolumeSensor.dir/all: preProcessing/CMakeFiles/libpreProcessing.dir/all
+src/CMakeFiles/grainVolumeSensor.dir/all: calArea/CMakeFiles/libcalArea.dir/all
+src/CMakeFiles/grainVolumeSensor.dir/all: cal3dCoor/CMakeFiles/libcal3dCoor.dir/all
 	$(MAKE) -f src/CMakeFiles/grainVolumeSensor.dir/build.make src/CMakeFiles/grainVolumeSensor.dir/depend
 	$(MAKE) -f src/CMakeFiles/grainVolumeSensor.dir/build.make src/CMakeFiles/grainVolumeSensor.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thomas/opencv_workspace/test4/build/CMakeFiles --progress-num=1,2 "Built target grainVolumeSensor"
@@ -117,167 +117,167 @@ clean: src/CMakeFiles/grainVolumeSensor.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory libpreProcessing
+# Directory level rules for directory preProcessing
 
 # Convenience name for "all" pass in the directory.
-libpreProcessing/all: libpreProcessing/CMakeFiles/libpreProcessing.dir/all
+preProcessing/all: preProcessing/CMakeFiles/libpreProcessing.dir/all
 
-.PHONY : libpreProcessing/all
+.PHONY : preProcessing/all
 
 # Convenience name for "clean" pass in the directory.
-libpreProcessing/clean: libpreProcessing/CMakeFiles/libpreProcessing.dir/clean
+preProcessing/clean: preProcessing/CMakeFiles/libpreProcessing.dir/clean
 
-.PHONY : libpreProcessing/clean
+.PHONY : preProcessing/clean
 
 # Convenience name for "preinstall" pass in the directory.
-libpreProcessing/preinstall:
+preProcessing/preinstall:
 
-.PHONY : libpreProcessing/preinstall
+.PHONY : preProcessing/preinstall
 
 #=============================================================================
-# Target rules for target libpreProcessing/CMakeFiles/libpreProcessing.dir
+# Target rules for target preProcessing/CMakeFiles/libpreProcessing.dir
 
 # All Build rule for target.
-libpreProcessing/CMakeFiles/libpreProcessing.dir/all:
-	$(MAKE) -f libpreProcessing/CMakeFiles/libpreProcessing.dir/build.make libpreProcessing/CMakeFiles/libpreProcessing.dir/depend
-	$(MAKE) -f libpreProcessing/CMakeFiles/libpreProcessing.dir/build.make libpreProcessing/CMakeFiles/libpreProcessing.dir/build
+preProcessing/CMakeFiles/libpreProcessing.dir/all:
+	$(MAKE) -f preProcessing/CMakeFiles/libpreProcessing.dir/build.make preProcessing/CMakeFiles/libpreProcessing.dir/depend
+	$(MAKE) -f preProcessing/CMakeFiles/libpreProcessing.dir/build.make preProcessing/CMakeFiles/libpreProcessing.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thomas/opencv_workspace/test4/build/CMakeFiles --progress-num=7,8 "Built target libpreProcessing"
-.PHONY : libpreProcessing/CMakeFiles/libpreProcessing.dir/all
+.PHONY : preProcessing/CMakeFiles/libpreProcessing.dir/all
 
 # Include target in all.
-all: libpreProcessing/CMakeFiles/libpreProcessing.dir/all
+all: preProcessing/CMakeFiles/libpreProcessing.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-libpreProcessing/CMakeFiles/libpreProcessing.dir/rule: cmake_check_build_system
+preProcessing/CMakeFiles/libpreProcessing.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/opencv_workspace/test4/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 libpreProcessing/CMakeFiles/libpreProcessing.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 preProcessing/CMakeFiles/libpreProcessing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/opencv_workspace/test4/build/CMakeFiles 0
-.PHONY : libpreProcessing/CMakeFiles/libpreProcessing.dir/rule
+.PHONY : preProcessing/CMakeFiles/libpreProcessing.dir/rule
 
 # Convenience name for target.
-libpreProcessing: libpreProcessing/CMakeFiles/libpreProcessing.dir/rule
+libpreProcessing: preProcessing/CMakeFiles/libpreProcessing.dir/rule
 
 .PHONY : libpreProcessing
 
 # clean rule for target.
-libpreProcessing/CMakeFiles/libpreProcessing.dir/clean:
-	$(MAKE) -f libpreProcessing/CMakeFiles/libpreProcessing.dir/build.make libpreProcessing/CMakeFiles/libpreProcessing.dir/clean
-.PHONY : libpreProcessing/CMakeFiles/libpreProcessing.dir/clean
+preProcessing/CMakeFiles/libpreProcessing.dir/clean:
+	$(MAKE) -f preProcessing/CMakeFiles/libpreProcessing.dir/build.make preProcessing/CMakeFiles/libpreProcessing.dir/clean
+.PHONY : preProcessing/CMakeFiles/libpreProcessing.dir/clean
 
 # clean rule for target.
-clean: libpreProcessing/CMakeFiles/libpreProcessing.dir/clean
+clean: preProcessing/CMakeFiles/libpreProcessing.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory libcalArea
+# Directory level rules for directory calArea
 
 # Convenience name for "all" pass in the directory.
-libcalArea/all: libcalArea/CMakeFiles/libcalArea.dir/all
+calArea/all: calArea/CMakeFiles/libcalArea.dir/all
 
-.PHONY : libcalArea/all
+.PHONY : calArea/all
 
 # Convenience name for "clean" pass in the directory.
-libcalArea/clean: libcalArea/CMakeFiles/libcalArea.dir/clean
+calArea/clean: calArea/CMakeFiles/libcalArea.dir/clean
 
-.PHONY : libcalArea/clean
+.PHONY : calArea/clean
 
 # Convenience name for "preinstall" pass in the directory.
-libcalArea/preinstall:
+calArea/preinstall:
 
-.PHONY : libcalArea/preinstall
+.PHONY : calArea/preinstall
 
 #=============================================================================
-# Target rules for target libcalArea/CMakeFiles/libcalArea.dir
+# Target rules for target calArea/CMakeFiles/libcalArea.dir
 
 # All Build rule for target.
-libcalArea/CMakeFiles/libcalArea.dir/all:
-	$(MAKE) -f libcalArea/CMakeFiles/libcalArea.dir/build.make libcalArea/CMakeFiles/libcalArea.dir/depend
-	$(MAKE) -f libcalArea/CMakeFiles/libcalArea.dir/build.make libcalArea/CMakeFiles/libcalArea.dir/build
+calArea/CMakeFiles/libcalArea.dir/all:
+	$(MAKE) -f calArea/CMakeFiles/libcalArea.dir/build.make calArea/CMakeFiles/libcalArea.dir/depend
+	$(MAKE) -f calArea/CMakeFiles/libcalArea.dir/build.make calArea/CMakeFiles/libcalArea.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thomas/opencv_workspace/test4/build/CMakeFiles --progress-num=5,6 "Built target libcalArea"
-.PHONY : libcalArea/CMakeFiles/libcalArea.dir/all
+.PHONY : calArea/CMakeFiles/libcalArea.dir/all
 
 # Include target in all.
-all: libcalArea/CMakeFiles/libcalArea.dir/all
+all: calArea/CMakeFiles/libcalArea.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-libcalArea/CMakeFiles/libcalArea.dir/rule: cmake_check_build_system
+calArea/CMakeFiles/libcalArea.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/opencv_workspace/test4/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 libcalArea/CMakeFiles/libcalArea.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 calArea/CMakeFiles/libcalArea.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/opencv_workspace/test4/build/CMakeFiles 0
-.PHONY : libcalArea/CMakeFiles/libcalArea.dir/rule
+.PHONY : calArea/CMakeFiles/libcalArea.dir/rule
 
 # Convenience name for target.
-libcalArea: libcalArea/CMakeFiles/libcalArea.dir/rule
+libcalArea: calArea/CMakeFiles/libcalArea.dir/rule
 
 .PHONY : libcalArea
 
 # clean rule for target.
-libcalArea/CMakeFiles/libcalArea.dir/clean:
-	$(MAKE) -f libcalArea/CMakeFiles/libcalArea.dir/build.make libcalArea/CMakeFiles/libcalArea.dir/clean
-.PHONY : libcalArea/CMakeFiles/libcalArea.dir/clean
+calArea/CMakeFiles/libcalArea.dir/clean:
+	$(MAKE) -f calArea/CMakeFiles/libcalArea.dir/build.make calArea/CMakeFiles/libcalArea.dir/clean
+.PHONY : calArea/CMakeFiles/libcalArea.dir/clean
 
 # clean rule for target.
-clean: libcalArea/CMakeFiles/libcalArea.dir/clean
+clean: calArea/CMakeFiles/libcalArea.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory libcal3dCoor
+# Directory level rules for directory cal3dCoor
 
 # Convenience name for "all" pass in the directory.
-libcal3dCoor/all: libcal3dCoor/CMakeFiles/libcal3dCoor.dir/all
+cal3dCoor/all: cal3dCoor/CMakeFiles/libcal3dCoor.dir/all
 
-.PHONY : libcal3dCoor/all
+.PHONY : cal3dCoor/all
 
 # Convenience name for "clean" pass in the directory.
-libcal3dCoor/clean: libcal3dCoor/CMakeFiles/libcal3dCoor.dir/clean
+cal3dCoor/clean: cal3dCoor/CMakeFiles/libcal3dCoor.dir/clean
 
-.PHONY : libcal3dCoor/clean
+.PHONY : cal3dCoor/clean
 
 # Convenience name for "preinstall" pass in the directory.
-libcal3dCoor/preinstall:
+cal3dCoor/preinstall:
 
-.PHONY : libcal3dCoor/preinstall
+.PHONY : cal3dCoor/preinstall
 
 #=============================================================================
-# Target rules for target libcal3dCoor/CMakeFiles/libcal3dCoor.dir
+# Target rules for target cal3dCoor/CMakeFiles/libcal3dCoor.dir
 
 # All Build rule for target.
-libcal3dCoor/CMakeFiles/libcal3dCoor.dir/all:
-	$(MAKE) -f libcal3dCoor/CMakeFiles/libcal3dCoor.dir/build.make libcal3dCoor/CMakeFiles/libcal3dCoor.dir/depend
-	$(MAKE) -f libcal3dCoor/CMakeFiles/libcal3dCoor.dir/build.make libcal3dCoor/CMakeFiles/libcal3dCoor.dir/build
+cal3dCoor/CMakeFiles/libcal3dCoor.dir/all:
+	$(MAKE) -f cal3dCoor/CMakeFiles/libcal3dCoor.dir/build.make cal3dCoor/CMakeFiles/libcal3dCoor.dir/depend
+	$(MAKE) -f cal3dCoor/CMakeFiles/libcal3dCoor.dir/build.make cal3dCoor/CMakeFiles/libcal3dCoor.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thomas/opencv_workspace/test4/build/CMakeFiles --progress-num=3,4 "Built target libcal3dCoor"
-.PHONY : libcal3dCoor/CMakeFiles/libcal3dCoor.dir/all
+.PHONY : cal3dCoor/CMakeFiles/libcal3dCoor.dir/all
 
 # Include target in all.
-all: libcal3dCoor/CMakeFiles/libcal3dCoor.dir/all
+all: cal3dCoor/CMakeFiles/libcal3dCoor.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-libcal3dCoor/CMakeFiles/libcal3dCoor.dir/rule: cmake_check_build_system
+cal3dCoor/CMakeFiles/libcal3dCoor.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/opencv_workspace/test4/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 libcal3dCoor/CMakeFiles/libcal3dCoor.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 cal3dCoor/CMakeFiles/libcal3dCoor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/opencv_workspace/test4/build/CMakeFiles 0
-.PHONY : libcal3dCoor/CMakeFiles/libcal3dCoor.dir/rule
+.PHONY : cal3dCoor/CMakeFiles/libcal3dCoor.dir/rule
 
 # Convenience name for target.
-libcal3dCoor: libcal3dCoor/CMakeFiles/libcal3dCoor.dir/rule
+libcal3dCoor: cal3dCoor/CMakeFiles/libcal3dCoor.dir/rule
 
 .PHONY : libcal3dCoor
 
 # clean rule for target.
-libcal3dCoor/CMakeFiles/libcal3dCoor.dir/clean:
-	$(MAKE) -f libcal3dCoor/CMakeFiles/libcal3dCoor.dir/build.make libcal3dCoor/CMakeFiles/libcal3dCoor.dir/clean
-.PHONY : libcal3dCoor/CMakeFiles/libcal3dCoor.dir/clean
+cal3dCoor/CMakeFiles/libcal3dCoor.dir/clean:
+	$(MAKE) -f cal3dCoor/CMakeFiles/libcal3dCoor.dir/build.make cal3dCoor/CMakeFiles/libcal3dCoor.dir/clean
+.PHONY : cal3dCoor/CMakeFiles/libcal3dCoor.dir/clean
 
 # clean rule for target.
-clean: libcal3dCoor/CMakeFiles/libcal3dCoor.dir/clean
+clean: cal3dCoor/CMakeFiles/libcal3dCoor.dir/clean
 
 .PHONY : clean
 

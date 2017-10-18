@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/opencv_workspace/test4/build/CMakeFiles /home/thomas/opencv_workspace/test4/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/thomas/opencv_workspace/test4/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/opencv_workspace/test4/build/CMakeFiles /home/thomas/opencv_workspace/test4/build/calArea/CMakeFiles/progress.marks
+	cd /home/thomas/opencv_workspace/test4/build && $(MAKE) -f CMakeFiles/Makefile2 calArea/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thomas/opencv_workspace/test4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/thomas/opencv_workspace/test4/build && $(MAKE) -f CMakeFiles/Makefile2 calArea/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,70 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/thomas/opencv_workspace/test4/build && $(MAKE) -f CMakeFiles/Makefile2 calArea/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/thomas/opencv_workspace/test4/build && $(MAKE) -f CMakeFiles/Makefile2 calArea/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/thomas/opencv_workspace/test4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named grainVolumeSensor
+# Convenience name for target.
+calArea/CMakeFiles/libcalArea.dir/rule:
+	cd /home/thomas/opencv_workspace/test4/build && $(MAKE) -f CMakeFiles/Makefile2 calArea/CMakeFiles/libcalArea.dir/rule
+.PHONY : calArea/CMakeFiles/libcalArea.dir/rule
 
-# Build rule for target.
-grainVolumeSensor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 grainVolumeSensor
-.PHONY : grainVolumeSensor
+# Convenience name for target.
+libcalArea: calArea/CMakeFiles/libcalArea.dir/rule
 
-# fast build rule for target.
-grainVolumeSensor/fast:
-	$(MAKE) -f src/CMakeFiles/grainVolumeSensor.dir/build.make src/CMakeFiles/grainVolumeSensor.dir/build
-.PHONY : grainVolumeSensor/fast
-
-#=============================================================================
-# Target rules for targets named libpreProcessing
-
-# Build rule for target.
-libpreProcessing: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libpreProcessing
-.PHONY : libpreProcessing
-
-# fast build rule for target.
-libpreProcessing/fast:
-	$(MAKE) -f preProcessing/CMakeFiles/libpreProcessing.dir/build.make preProcessing/CMakeFiles/libpreProcessing.dir/build
-.PHONY : libpreProcessing/fast
-
-#=============================================================================
-# Target rules for targets named libcalArea
-
-# Build rule for target.
-libcalArea: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libcalArea
 .PHONY : libcalArea
 
 # fast build rule for target.
 libcalArea/fast:
-	$(MAKE) -f calArea/CMakeFiles/libcalArea.dir/build.make calArea/CMakeFiles/libcalArea.dir/build
+	cd /home/thomas/opencv_workspace/test4/build && $(MAKE) -f calArea/CMakeFiles/libcalArea.dir/build.make calArea/CMakeFiles/libcalArea.dir/build
 .PHONY : libcalArea/fast
 
-#=============================================================================
-# Target rules for targets named libcal3dCoor
+cal_area.o: cal_area.cpp.o
 
-# Build rule for target.
-libcal3dCoor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libcal3dCoor
-.PHONY : libcal3dCoor
+.PHONY : cal_area.o
 
-# fast build rule for target.
-libcal3dCoor/fast:
-	$(MAKE) -f cal3dCoor/CMakeFiles/libcal3dCoor.dir/build.make cal3dCoor/CMakeFiles/libcal3dCoor.dir/build
-.PHONY : libcal3dCoor/fast
+# target to build an object file
+cal_area.cpp.o:
+	cd /home/thomas/opencv_workspace/test4/build && $(MAKE) -f calArea/CMakeFiles/libcalArea.dir/build.make calArea/CMakeFiles/libcalArea.dir/cal_area.cpp.o
+.PHONY : cal_area.cpp.o
+
+cal_area.i: cal_area.cpp.i
+
+.PHONY : cal_area.i
+
+# target to preprocess a source file
+cal_area.cpp.i:
+	cd /home/thomas/opencv_workspace/test4/build && $(MAKE) -f calArea/CMakeFiles/libcalArea.dir/build.make calArea/CMakeFiles/libcalArea.dir/cal_area.cpp.i
+.PHONY : cal_area.cpp.i
+
+cal_area.s: cal_area.cpp.s
+
+.PHONY : cal_area.s
+
+# target to generate assembly for a file
+cal_area.cpp.s:
+	cd /home/thomas/opencv_workspace/test4/build && $(MAKE) -f calArea/CMakeFiles/libcalArea.dir/build.make calArea/CMakeFiles/libcalArea.dir/cal_area.cpp.s
+.PHONY : cal_area.cpp.s
 
 # Help Target
 help:
@@ -170,10 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... grainVolumeSensor"
-	@echo "... libpreProcessing"
 	@echo "... libcalArea"
-	@echo "... libcal3dCoor"
+	@echo "... cal_area.o"
+	@echo "... cal_area.i"
+	@echo "... cal_area.s"
 .PHONY : help
 
 
@@ -185,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/thomas/opencv_workspace/test4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

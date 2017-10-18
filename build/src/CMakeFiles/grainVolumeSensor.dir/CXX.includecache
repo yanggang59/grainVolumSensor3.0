@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-../libcal3dCoor/cal_3d_coor.h
+../cal3dCoor/cal_3d_coor.h
 opencv2/opencv.hpp
 -
 
-../libcalArea/cal_area.h
+../calArea/cal_area.h
 opencv2/opencv.hpp
 -
 vector
 -
 
-../libpreProcessing/preprocessing.h
+../preProcessing/preprocessing.h
 opencv2/opencv.hpp
 -
 

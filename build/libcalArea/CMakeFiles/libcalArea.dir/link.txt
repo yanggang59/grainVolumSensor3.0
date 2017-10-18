@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblibcalArea.a  CMakeFiles/libcalArea.dir/cal_area.cpp.o
-/usr/bin/ranlib liblibcalArea.a
